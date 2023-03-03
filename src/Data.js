@@ -37,5 +37,45 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Air baloon",
+        description: "Go on the journey of seeing the oldest underground civilisation from the baloons in Turkey",
+        price: 30,
+        coverImg: "air-baloon.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 5
+        },
+        location: "Turkey",
+        openSpots: 5,
+    },
+    {
+        id: 5,
+        title: "Windsor Bike Tour",
+        description: "Bike through windsor lake Michigan, with Detroit skyline in sight.",
+        price: 60,
+        coverImg: "bike-tour.jpg",
+        stats: {
+            rating: 4.5,
+            reviewCount: 15
+        },
+        location: "Windsor",
+        openSpots: 27,
+    },
+    {
+        id: 6,
+        title: "Gate to Heaven",
+        description: "Visit the most famous spot in Bali, Indonesia",
+        price: 60,
+        coverImg: "gate-to-heaven.jpg",
+        stats: {
+            rating: 4.5,
+            reviewCount: 20
+        },
+        location: "Indonesia",
+        openSpots: 20,
     }
+
 ]
