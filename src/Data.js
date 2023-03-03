@@ -49,7 +49,7 @@ export default [
             reviewCount: 5
         },
         location: "Turkey",
-        openSpots: 5,
+        openSpots: 0,
     },
     {
         id: 5,
@@ -76,6 +76,32 @@ export default [
         },
         location: "Indonesia",
         openSpots: 20,
+    },
+    {
+        id: 7,
+        title: "Kids Class",
+        description: "Interactive online class for kids age range 3-9 years old",
+        price: 60,
+        coverImg: "kids-class.jpg",
+        stats: {
+            rating: 4.5,
+            reviewCount: 20
+        },
+        location: "Online",
+        openSpots: 20,
+    },
+    {
+        id: 8,
+        title: "Language class for adults",
+        description: "Learn one of the most famous and desired language, Urdu.",
+        price: 60,
+        coverImg: "language-class.jpg",
+        stats: {
+            rating: 4.5,
+            reviewCount: 20
+        },
+        location: "Online",
+        openSpots: 0,
     }
 
 ]
