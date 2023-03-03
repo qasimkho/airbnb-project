@@ -12,7 +12,7 @@ export default function Card(props) {
     return (
         <div className='box'>
             <div className="card">
-            {badgeText && <div className='card--badge'>{badgeText}</div>}
+            {badgeText && <div className='card--badge'>{badgeText}</div>} {/* if badgeText is truthy value then thing after && will print */}
             <img className='card--image' src={`../images/${props.img}`} />
             <div className="card--stats">
                 <img className='card--star' src="../src/assets/Star.png" />
