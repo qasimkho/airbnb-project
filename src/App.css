@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Poppins';
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(252, 252, 252);
 }
 
 .navbar {
@@ -73,14 +73,6 @@ body {
 .card--star {
   height: 14px;
 }
-
-.gray {
-  color: gray;
-}
-
-.bold {
-  font-weight: bold;
-}
 /*------------------------------------------------*\
    Typography
 \*------------------------------------------------*/
@@ -96,6 +88,15 @@ body {
   left: 6px;
   background-color: white;
   padding: 5px 7px;
-  border-radius: 2px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+
+.gray {
+  color: gray;
+}
+
+.bold {
   font-weight: bold;
 }

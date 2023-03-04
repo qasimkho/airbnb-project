@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
 
-  const cardElement = data.map(item => 
+  const cards = data.map(item => 
     <Card 
       key={item.id}
       img = {item.coverImg}
@@ -20,10 +20,12 @@ function App() {
 )
 
   return (
-    <div className="App">
+    <div>
       <NavBar />
       <Hero />
-      {cardElement}
+      <section className='cards-list'>
+        {cards}
+      </section>
     </div>
   )
 }

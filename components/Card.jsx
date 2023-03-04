@@ -10,23 +10,17 @@ export default function Card(props) {
         badgeText = "ONLINE"
     }
     return (
-        <div className='box'>
             <div className="card">
             {badgeText && <div className='card--badge'>{badgeText}</div>} {/* if badgeText is truthy value then thing after && will print */}
-            <img className='card--image' src={`../images/${props.img}`} />
+            <img className='card--image' src={`../images/${props.Img}`} />
             <div className="card--stats">
                 <img className='card--star' src="../src/assets/Star.png" />
                 <span>{props.rating}</span>
                 <span className='gray'> {props.reviewCount} . </span>
-                <span className='gray'>{props.location}</span>
+                <span className='gray'>{props.location}</span>  {/* this has some logic that needs to be learnt */}
             </div>
-            <div>
-                <p>{props.title}</p>
-            </div>
-            <div className='price'>
-                <p><span className='bold'>${props.price}</span> / person</p>
-            </div>
-        </div>
+            <p>{props.title}</p>
+            <p className='card--price'><span className='bold'>From ${props.price}</span> / person</p>
         </div>
     )
 }
